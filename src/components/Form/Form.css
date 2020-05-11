@@ -1,0 +1,16 @@
+form {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 5px;
+    max-width: 500px;
+}
+
+#submit {
+    margin-top: 10px;
+    max-width: 150px;
+    align-self: center;
+
+}
