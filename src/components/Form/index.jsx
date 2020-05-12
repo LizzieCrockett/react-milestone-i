@@ -20,8 +20,8 @@ const Form = (props) => {
         <>
             {!registered ?
                 <>
-                    <p>Register here:</p>
-                    <form onSubmit={handleSubmit}>
+                    <p id="reginvite">Register for more of this crap here:</p>
+                    <form onSubmit={handleSubmit} id={props.id}>
                         <div><Input id="name" type="text" label="name" required="required" onChange={handleInput} />
                             <Input id="email" type="email" label="email" required="required" />
                             <Input id="password" type="password" label="password" required="required" /> </div>
@@ -31,7 +31,7 @@ const Form = (props) => {
                     </form >
                 </>
                 :
-                <div>
+                <div id="conditional">
                     <p>Thank you, {userName}, for sending me your data. I will now sell it for large amounts of money 🤣.</p>
                     <iframe src="https://giphy.com/embed/3orif7aLUehOfdmlXy" width="240" height="183" frameBorder="0" title="Mr Burns" className="giphy-embed" allowFullScreen></iframe>
                 </div>

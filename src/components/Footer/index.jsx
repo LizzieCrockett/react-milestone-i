@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 
 
 const Footer = (props) => {
@@ -6,7 +7,7 @@ const Footer = (props) => {
     const location = "Sydenham";
     const theTime = new Date().getFullYear();
     return (
-        <p>☙ Made in {location} by {devSignature}, {theTime} ❧</p>
+        <p id="footer">☙ Made in {location} by {devSignature}, {theTime} ❧</p>
     )
 }
 

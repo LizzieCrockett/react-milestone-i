@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;1,300&display=swap');
+
+
+#submit {
+    border: none;
+    font-family: 'Jost', sans-serif;  
+    font-size: 16px;
+    width: 200%;  
+}
+
+#submit:hover {
+    color: wheat;
+    background-color: teal;
+}

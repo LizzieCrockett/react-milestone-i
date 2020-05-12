@@ -10,7 +10,7 @@ const MirrorBar = (props) => {
   }
   return (
     <>
-      <p>Type in the box below and I'll repeat after you.</p>
+      <p id="typein">Type in the box below and I'll repeat after you.</p>
       <input type={props.type} id={props.id} onChange={handleInput} />
       <p id="reply">{info}</p>
     </>

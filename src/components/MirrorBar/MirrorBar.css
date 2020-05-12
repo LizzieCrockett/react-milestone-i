@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Spectral:wght@300&display=swap');
+
+#typein {
+    font-family: 'Spectral', serif;
+}
 
 #reply {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Beth Ellen', cursive;
     font-size: 24px;
 }
