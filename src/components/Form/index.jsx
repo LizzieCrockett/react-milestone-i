@@ -32,8 +32,8 @@ const Form = (props) => {
                 </>
                 :
                 <div id="conditional">
-                    <p>Thank you, {userName}, for sending me your data. I will now sell it for large amounts of money 🤣.</p>
-                    <iframe src="https://giphy.com/embed/3orif7aLUehOfdmlXy" width="240" height="183" frameBorder="0" title="Mr Burns" className="giphy-embed" allowFullScreen></iframe>
+                    <p>Thank you, {userName}, for sending me your data. I will now sell it for large amounts of money 🤣</p>
+                    <iframe src="https://giphy.com/embed/3orif7aLUehOfdmlXy" width="120" height="91.5" frameBorder="0" title="Mr Burns" className="giphy-embed" allowFullScreen></iframe>
                 </div>
             }
         </>

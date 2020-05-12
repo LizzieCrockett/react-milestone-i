@@ -6,6 +6,8 @@
     font-family: 'Jost', sans-serif;  
     font-size: 16px;
     width: 200%;  
+    color: teal;
+    background-color: wheat;
 }
 
 #submit:hover {
