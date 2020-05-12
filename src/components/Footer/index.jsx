@@ -6,7 +6,7 @@ const Footer = (props) => {
     const location = "Sydenham";
     const theTime = new Date().getFullYear();
     return (
-        <p>Made in {location} by {devSignature}, {theTime}</p>
+        <p>☙ Made in {location} by {devSignature}, {theTime} ❧</p>
     )
 }
 

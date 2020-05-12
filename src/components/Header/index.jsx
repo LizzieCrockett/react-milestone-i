@@ -1,7 +1,7 @@
 import React from 'react';
 import Clock from '../Clock';
 
-const Heading = (props) => {
+const Header = (props) => {
   return (
     <>
       <h1>Good day to you.</h1>
@@ -10,4 +10,4 @@ const Heading = (props) => {
   )
 }
 
-export default Heading;
+export default Header;
