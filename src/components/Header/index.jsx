@@ -2,7 +2,7 @@ import React from 'react';
 import Clock from '../Clock';
 import './Header.css';
 
-const Header = (props) => {
+const Header = () => {
   return (
     <>
       <h1 id="greeting">Good day to you.</h1>

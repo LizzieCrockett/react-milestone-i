@@ -2,8 +2,8 @@
 import React from 'react';
 import './MirrorBar.css';
 
-const MirrorBar = (props) => {
-  const [info, displayInfo] = React.useState('');
+const MirrorBar = ({type, id}) => {
+  const [userInfo, displayInfo] = React.useState('');
   const handleInput = (event) => {
     displayInfo(event.target.value)
     console.log(event.target.value)
@@ -11,8 +11,8 @@ const MirrorBar = (props) => {
   return (
     <>
       <p id="typein">Type in the box below and I'll repeat after you.</p>
-      <input type={props.type} id={props.id} onChange={handleInput} />
-      <p id="reply">{info}</p>
+      <input type={type} id={id} onChange={handleInput} />
+      <p id="reply">{userInfo}</p>
     </>
   )
 }

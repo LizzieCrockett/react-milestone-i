@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 
 
-const Footer = (props) => {
+const Footer = () => {
     const devSignature = "Lizzie C";
     const location = "Sydenham";
     const theTime = new Date().getFullYear();

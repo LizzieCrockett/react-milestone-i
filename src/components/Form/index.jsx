@@ -3,7 +3,7 @@ import './Form.css';
 import Input from '../Input'
 import SubmitButton from '../SubmitButton';
 
-const Form = (props) => {
+const Form = ({id}) => {
     const [registered, setStatus] = React.useState(false);
     const [userName, setUserName] = React.useState('');
 
@@ -21,7 +21,7 @@ const Form = (props) => {
             {!registered ?
                 <>
                     <p id="reginvite">Register for more of this crap here:</p>
-                    <form onSubmit={handleSubmit} id={props.id}>
+                    <form onSubmit={handleSubmit} id={id}>
                         <div><Input id="name" type="text" label="name" required="required" onChange={handleInput} />
                             <Input id="email" type="email" label="email" required="required" />
                             <Input id="password" type="password" label="password" required="required" /> </div>

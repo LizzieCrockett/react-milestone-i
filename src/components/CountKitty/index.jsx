@@ -1,7 +1,7 @@
 import React from 'react';
 import './CountKitty.css'
 
-const CountKitty = (props) => {
+const CountKitty = () => {
   const [count, setCount] = React.useState(0);
   return (
     <>

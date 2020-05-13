@@ -18,7 +18,7 @@ function App() {
       <hr />
       <Form id="reg_form" />
       <hr />
-      <Footer className="footer"/>
+      <Footer />
     </div>
   );
 }

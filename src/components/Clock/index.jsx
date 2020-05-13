@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Clock = (props) => {
+const Clock = () => {
   const [date, setDate] = React.useState(new Date());
 
   React.useEffect(() => {
