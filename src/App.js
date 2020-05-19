@@ -11,13 +11,13 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <hr />
+
       <CountKitty />
-      <hr />
+
       <MirrorBar type="text" id="info" />
-      <hr />
+
       <Form id="reg_form" />
-      <hr />
+
       <Footer />
     </div>
   );

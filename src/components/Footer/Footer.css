@@ -2,4 +2,6 @@
 
 #footer {
     font-family: 'Bellota', cursive;
+    border-top: 1px dotted grey;
+    padding-top: 10px;
 }

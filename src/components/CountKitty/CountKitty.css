@@ -4,6 +4,8 @@
 #stroke {
     font-family: 'Mali', cursive;
     font-weight: bold;
+    border-top: 1px dotted grey;
+    padding-top: 10px;
 }
 
 #spam {

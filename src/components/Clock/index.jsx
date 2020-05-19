@@ -16,7 +16,7 @@ const Clock = () => {
   }
 
   return (
-    <>{date.toLocaleTimeString()} </>
+    <div id="clock">{date.toLocaleTimeString()} </div>
   );
 }
 

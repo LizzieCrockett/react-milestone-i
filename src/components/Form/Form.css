@@ -9,6 +9,8 @@
 #reginvite, #conditional {
     font-family: 'Jost', sans-serif;
     font-weight: bold;
+    border-top: 1px dotted grey;
+    padding-top: 10px;
 }
 
 #reg_form {
