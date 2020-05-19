@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9444bfe857c20399640236526b7e1b51",
+    "revision": "a6f401e5cffd9225a867e579f0f1d6c0",
     "url": "/react-milestone-i/index.html"
   },
   {
-    "revision": "3b31cdb16a7fe9f51227",
-    "url": "/react-milestone-i/static/css/main.65ad9d1b.chunk.css"
+    "revision": "2fe7dce2c81fd8fe6d1b",
+    "url": "/react-milestone-i/static/css/main.40956030.chunk.css"
   },
   {
     "revision": "fb2ac9780658c8754611",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-milestone-i/static/js/2.42558c37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b31cdb16a7fe9f51227",
-    "url": "/react-milestone-i/static/js/main.44e1691b.chunk.js"
+    "revision": "2fe7dce2c81fd8fe6d1b",
+    "url": "/react-milestone-i/static/js/main.a369c46c.chunk.js"
   },
   {
     "revision": "853d18f3451bf27f29c2",
